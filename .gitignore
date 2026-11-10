@@ -1,0 +1,25 @@
+# data: PDFs and generated files stay local (see docs/sources.md for downloads)
+data/
+
+# secrets: API keys go in .env, never in git
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# tool caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
